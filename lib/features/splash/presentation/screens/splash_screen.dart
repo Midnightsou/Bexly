@@ -135,7 +135,7 @@ class SplashScreen extends HookConsumerWidget {
               if (avatarChanged || nameChanged) {
                 authNotifier.setUser(localUser.copyWith(
                   profilePicture: avatarChanged ? remoteAvatar : localUser.profilePicture,
-                  name: nameChanged ? remoteName! : localUser.name,
+                  name: nameChanged ? remoteName : localUser.name,
                 ));
                 Log.d('Synced profile from Supabase metadata (avatar: $avatarChanged, name: $nameChanged)', label: 'SplashScreen');
               }

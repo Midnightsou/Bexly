@@ -64,6 +64,7 @@ class BackgroundAIService {
 
       return null;
     }
+    return null;
   }
 
   /// Completion via Supabase Edge Function proxy (for OpenAI, Gemini)

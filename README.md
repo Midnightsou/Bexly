@@ -41,9 +41,8 @@ Say goodbye to spreadsheet-based expense and budget tracking! **Bexly** is your 
 
 ### 🌟 What Will You Get
 
-* **100% Free & Open Source**: Completely free, no hidden costs, with open access to the source code — FOREVER!
 * **Cross-Platform**: Seamless use across Android, iOS*, macOS*, Windows, Linux*, and even the browser. Take your budget management anywhere!
-* **No Registration Needed**: Jump right in without the hassle of creating an account or request any access like spreadsheet-based does.
+
 * **No Ads, Always**: Say goodbye to annoying ads; Bexly is focused solely on helping you manage your finances.
 * **Offline-first**: Your data is always accessible, even offline. Connect only when you want to sync across devices.
 * **Security focused**: For offline use, you are in charge of your own data.

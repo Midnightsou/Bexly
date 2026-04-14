@@ -1367,7 +1367,7 @@ Please create a transaction based on this receipt data.''';
                   displayMessage = displayMessage.replaceAll('Active Wallet', usedWallet.name);
 
                   // Add conversion info if currency was converted
-                  if (aiCurrency != usedWallet.currency && convertedAmount != null) {
+                  if (aiCurrency != usedWallet.currency) {
                     // Format amounts with proper separators
                     final convertedFormatted = _formatAmount(convertedAmount, currency: usedWallet.currency);
                     final originalFormatted = _formatAmount(originalAmount, currency: aiCurrency);
